@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from "react";
+import React, {useContext} from "react";
 import "./App.css";
 
 import logo from './assets/logo.png'
@@ -20,10 +20,7 @@ function App() {
 
   const formatted = formatNumber(total)
   
-  useEffect(() => {
-    document.getElementById("focus").focus()
-    alert("Elements are functional")
-  }, [])
+  
 
  
   return (

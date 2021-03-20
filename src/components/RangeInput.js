@@ -10,8 +10,8 @@ const newVal = Number(((users - minUser) * 100) / (maxUser - minUser));
 
   return (
       <div className="addUserSlider">
-            <h2>Add more users</h2>
-            <p><b>N9,999</b> per user</p>
+            <h3>Add more users</h3>
+            <p><b>NGN9,999</b> per user</p>
             <div className="sliderContainer">
               <div className="bubble" style={{left: `calc( ${newVal}% + (${-3 - newVal * 0.15}px)) `}} >{users}</div>
               <label htmlFor="user">1</label>

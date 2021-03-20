@@ -8,8 +8,9 @@ export default function SingleModule({name, icon}) {
       <i className={icon}></i>
     </div>
     <div className="moduleLabel">
-      <p>{name}</p>
+      <b>{name}</b>
     </div>
+    <i id="info" className="fas fa-info-circle"></i>
   </div>
   )
 }

@@ -12,7 +12,7 @@ const HermesContextProvider = ({children}) => {
   const [basic, setBasic] = useState(true)
   const [premium, setPremium] = useState(false)
 
-  const [users, setUsers] = useState(0)
+  const [users, setUsers] = useState(1)
   const [user, setUser] = useState(0)
   const [total, setTotal] = useState(9999)
 

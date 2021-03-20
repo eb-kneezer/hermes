@@ -22,7 +22,15 @@ const allModules = [
   {
     name: "Minute Book",
     icon: "fab fa-mdb"
-  }
+  },
+  {
+    name: "Contract Domain",
+    icon: "fas fa-file-signature"
+  },
+  {
+    name: "Corporate Universe",
+    icon: "fas fa-landmark"
+  },
 ]
 
 export default allModules
